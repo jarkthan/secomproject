@@ -6,4 +6,9 @@ __pycache__/
 *.pyc
 
 # Jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints/ 
+
+# datafile
+*.names
+*.data
+*.zip

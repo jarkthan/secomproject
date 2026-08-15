@@ -10,6 +10,6 @@ __pycache__/
 
 # datafile
 *.names
-*.data
+# *.data
 *.zip
 *.csv

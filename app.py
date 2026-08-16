@@ -102,11 +102,17 @@ def main():
     # Tab 1: Run Experiment
     # =========================
     with tab_run:
-        st.header("Run a New Experiment")
-
+        st.header("Defect Detection in Semiconductor Manufacturing: Preprocessing & Hyperparameter Explorer")
+        st.markdown(
+            """
+            This Streamlit app allows you to explore different preprocessing and hyperparameter decisions for defect detection in semiconductor manufacturing using the SECOM dataset.
+            You can run experiments with different configurations and view the evaluation metrics for each run.
+            """
+        )
         st.subheader("Dataset Preview")
         st.dataframe(X.head())
 
+        st.header("Run a New Experiment")
         st.markdown("### Choose preprocessing & modeling decisions")
 
         # --- Options from your scope ---
